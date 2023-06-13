@@ -1,0 +1,98 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  --padding: 5rem;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+}
+
+.picture {
+  width: 40vw;
+  height: 100vh;
+  background-image: url(./img/bga.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 120px;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+
+.haz {
+  width: 5vw;
+  height: auto;
+}
+
+.picturebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000007b;
+  gap: 48px;
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+}
+
+.box1 {
+  background-color: #f9fafb;
+  font-size: 4rem;
+  font-weight: bolder;
+  padding: var(--padding);
+}
+
+.test {
+  margin-bottom: 48px;
+}
+
+.box2 {
+  background-color: #ffffff;
+  box-shadow: 5px 10px #0000001e;
+  font-size: 4rem;
+  font-weight: bolder;
+  padding: var(--padding);
+}
+
+label {
+  font-size: 3rem;
+}
+input {
+  font-size: 3rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+form label {
+  text-align: right;
+}
+
+.box3 {
+  background-color: #f9fafb;
+  font-size: 4rem;
+  font-weight: bolder;
+  padding: var(--padding);
+}
+button {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+a {
+}
